@@ -24,3 +24,11 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Uploads and processed images
+uploads/*
+!uploads/.gitkeep
+processed/*
+!processed/.gitkeep
+cache/*
+!cache/.gitkeep
